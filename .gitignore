@@ -1,3 +1,10 @@
+# Node modules
+node_modules/
+
+# Visual Studio Code folders
+**/.vscode/
+
+# Unity specific folders and files
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
@@ -6,20 +13,19 @@
 [Uu]ser[Ss]ettings/
 **/*.meta
 [Ll]ibrary/
-[Ee]xported[Oo]bj/
+
+# System files
 .vs/
-/*.userprefs
-/*.csproj
-/*.pidb
-/*.suo
-/*.sln*
-/*.user
-/*.unityproj
-/*.booproj
+*.csproj
+*.pidb
+*.suo
+*.sln*
+*.user
+*.unityproj
+*.booproj
 /.idea*/
 .idea/
-/*.user
-/*.xmlDoc
+*.xmlDoc
 .DS_Store
 .DS_Store?
 ._*
@@ -28,13 +34,15 @@
 ehthumbs.db
 [Tt]humbs.db
 Desktop.ini
-[Bb]uild/
-[Bb]uilds/
-crashlytics-build.properties
+
+# Package manager files
 /Packages/
 !Packages/manifest.json
 !Packages/packages-lock.json
-.vscode/
+
+# Backup files
 *.bak
 *.tmp
 *.swp
+
+
