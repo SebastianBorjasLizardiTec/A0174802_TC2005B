@@ -1,0 +1,103 @@
+body {
+    background-color: #E5E5EA;
+}
+
+.property {
+    margin: 20px;
+    padding: 10px;
+}
+
+#border {
+    border: 3px solid #999;
+}
+
+#border-left{
+    border-left: 3px solid #999;
+}
+
+#border-right{
+    border-right: 3px solid #999;
+}
+
+#border-top{
+    border-top: 3px solid #999;
+}
+
+#border-bottom{
+    border-bottom: 3px solid #999;
+}
+
+#border-radius{
+    border: 3px solid #999;
+    border-radius: 10px;
+}
+
+#background-image {
+    background-image: url('./Assets/image.png');
+    width: 300px; 
+    height: 60px;
+    background-size: contain;
+
+}
+
+#color {
+    color: #FF8368;
+}
+
+#font {
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+#font-family {
+    font-family: 'Arial', sans-serif;
+}
+
+#font-style{
+    font-style: italic;
+}
+
+#font-weight{
+    font-weight: bold;
+}
+
+#width-height {
+    width: 200px;
+    height: 100px;
+    border: 3px solid #999;
+}
+
+#list-style {
+    list-style: square inside;
+}
+
+#margin {
+    margin: 50px;
+    border: 3px solid #999;
+}
+
+#padding {
+    padding: 20px;
+    border: 3px solid #999;
+}
+
+#overflow {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 3px solid #999;
+}
+
+#display {
+    display: none;
+}
+
+#position {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 3px solid #999;
+}
+
+#filter {
+    filter: blur(1px);
+}
